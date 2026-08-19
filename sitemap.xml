@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=home</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=inflasi</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=kemiskinan</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=ketenagakerjaan</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=ekonomi</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=ipm</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=kependudukan</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://YOUR_USERNAME.github.io/YOUR_REPO/?page=tentang</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
