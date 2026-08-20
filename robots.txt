@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://yoviewibowo.github.io/lapis6171/sitemap.xml
