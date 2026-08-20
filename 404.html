@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#5a331f">
+  <title>Halaman Tidak Ditemukan | LAPIS</title>
+  <meta name="description" content="Halaman yang Anda cari tidak tersedia di LAPIS.">
+  <style>
+    :root{--bg:#fbf3e8;--surface:#fff;--text:#3f291c;--muted:#786354;--line:#e5cfb1;--navy:#5a331f;--orange:#c98232}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{min-height:100vh;display:grid;place-items:center;padding:40px 20px}
+    .box{width:min(820px,100%)}
+    .code{font-size:.8rem;font-weight:850;letter-spacing:.18em;color:var(--orange)}
+    h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:.95;letter-spacing:-.05em;margin:14px 0 20px}
+    p{color:var(--muted);font-size:1.05rem;line-height:1.65;max-width:650px}
+    a{display:inline-flex;margin-top:18px;min-height:46px;padding:0 18px;align-items:center;justify-content:center;border-radius:11px;background:var(--navy);color:#fff;text-decoration:none;font-weight:800}
+    a:hover{opacity:.92}
+    a:focus-visible{outline:3px solid #38bdf8;outline-offset:3px}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="box">
+      <span class="code">404 • LAPIS</span>
+      <h1>Halaman ini rupanya mengambil jalan yang terlalu jauh.</h1>
+      <p>Tautan yang Anda buka tidak tersedia. Kembali ke portal LAPIS untuk mencari indikator yang dibutuhkan.</p>
+      <a id="home-link" href="/">Kembali ke LAPIS</a>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var pathParts = location.pathname.split('/').filter(Boolean);
+      var isGitHubProjectPage = /\.github\.io$/i.test(location.hostname) && pathParts.length > 0;
+      var basePath = isGitHubProjectPage ? '/' + pathParts[0] + '/' : '/';
+      document.getElementById('home-link').href = location.origin + basePath;
+    })();
+  </script>
+</body>
+</html>
